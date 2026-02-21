@@ -8,7 +8,7 @@ const socials = [
     isEmoji: true,
   },
   {
-    href: "#",
+    href: "https://t.me/develify",
     icon: "/images/telegram-logo.png",
     name: "Telegram",
     desc: "Coming soon",
