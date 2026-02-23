@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-// To add more memes: just add their filenames here
 const ALL_MEMES = [
   { src: "/images/meme1.jpg", alt: "Sunrise Silhouette" },
   { src: "/images/meme2.jpg", alt: "Area 51 Reveal" },
@@ -10,7 +9,30 @@ const ALL_MEMES = [
   { src: "/images/meme6.jpg", alt: "Mountain Summit" },
   { src: "/images/meme7.jpg", alt: "Boardroom Takeover" },
   { src: "/images/meme8.jpg", alt: "Fashion Week" },
-  // Add more: { src: "/images/meme9.jpg", alt: "..." },
+  { src: "/images/AWif.jpg", alt: "AWif Meme" },
+  { src: "/images/awffif.jpg", alt: "awffif Meme" },
+  { src: "/images/unnamed (10).jpg", alt: "Meme 10" },
+  { src: "/images/unnamed (11).jpg", alt: "Meme 11" },
+  { src: "/images/unnamed (13).jpg", alt: "Meme 13" },
+  { src: "/images/unnamed (14).jpg", alt: "Meme 14" },
+  { src: "/images/unnamed (16).jpg", alt: "Meme 16" },
+  { src: "/images/unnamed (17).jpg", alt: "Meme 17" },
+  { src: "/images/unnamed (22).jpg", alt: "Meme 22" },
+  { src: "/images/unnamed (24).jpg", alt: "Meme 24" },
+  { src: "/images/unnamed (25).jpg", alt: "Meme 25" },
+  { src: "/images/unnamed (27).jpg", alt: "Meme 27" },
+  { src: "/images/unnamed (3).jpg", alt: "Meme 3" },
+  { src: "/images/unnamed (5).jpg", alt: "Meme 5" },
+  { src: "/images/unnamed (6).jpg", alt: "Meme 6" },
+  { src: "/images/unnamed (7).jpg", alt: "Meme 7" },
+  { src: "/images/unnamed (9).jpg", alt: "Meme 9" },
+  { src: "/images/unnamed.jpg", alt: "Unnamed Meme" },
+  { src: "/images/wif 3.png", alt: "wif 3 Meme" },
+  { src: "/images/wif 6.jpg", alt: "wif 6 Meme" },
+  { src: "/images/wif1.png", alt: "wif 1 Meme" },
+  { src: "/images/wif2.jpg", alt: "wif 2 Meme" },
+  { src: "/images/wif5.jpg", alt: "wif 5 Meme" },
+  { src: "/images/wwiff4.jpg", alt: "wwiff 4 Meme" },
 ];
 
 const INITIAL_SHOW = 6;
